@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&family=Ubuntu:wght@300;400&display=swap');
+
+*{ 
+  margin: 0;padding: 0;box-sizing: border-box;
+  font-family: "Raleway", 'sans-serif';
+  /* border: 1px solid rgba(0,0,0,0.2); */
+
+}
+h2 {
+  text-align: center;
+  background-color: brown;
+  color:antiquewhite;
+  padding: 15px;
+  width: 70%;
+  margin: auto;
+}
+
+.container {
+  background-color: bisque;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 5vmax 12vmax;
+  
+}
+.container > h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  color: chocolate;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, button {
+  padding: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 10px 0;
+  font-size: 1.3rem;
+}
+
+.container button{
+  border: none;
+  outline: none;
+  background-color: darkslategrey;
+  color: whitesmoke;
+  cursor: pointer;
+ }
+ .todoList {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  background-color: rgb(214, 200, 200);
+  padding: 15px;
+  border-radius: 5px;
+ }
+
+ .todoList > div{
+  width: 100%;
+ }
+.todoList span {
+  color: rgb(55, 66, 66);
+}
+ .todoList button {
+   border-radius: 100%;
+   width: 30px;
+   height: 30px;
+   font-size: 2rem;
+   background-color: rgb(9, 41, 109);
+   display: flex;
+   cursor: pointer;
+   justify-content: center;
+   align-items: center;
+  }
+  .todoList button:hover {
+    background-color: red;
+    color: black;
+  }
